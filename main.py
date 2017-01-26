@@ -20,7 +20,7 @@ import caesar
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         rot_label = "<label>Rotate by:</label>"
-        rotation_input = "<input type='number' name='rotation'/>"
+        rotation_input = "<input type='number' name='rotation' value='0'/>"
 
         message_label ="<label>Type a message:</label>"
 	textarea = "<textarea name='message'></textarea>"
